@@ -1,5 +1,5 @@
-# hunting
-codes
+//# hunting
+//codes
 import java.io.*;
 import java.util.*;
 class alpha
