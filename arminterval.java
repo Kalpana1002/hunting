@@ -12,9 +12,10 @@ for(int i=num1+1;i<num2;i++)
 {
 while(i>0)
 {
-int m=i%10;
+  int num=i;
+int m=num%10;
 arm+=m*m*m;
-i=i/10;
+num=num/10;
 }
 if(arm==i)
 {
