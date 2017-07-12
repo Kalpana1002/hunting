@@ -10,9 +10,9 @@ int num1=sc.nextInt();
 int num2=sc.nextInt();
 for(int i=num1+1;i<num2;i++)
 {
-while(i>0)
+int num=i;  
+while(num>0)
 {
-  int num=i;
 int m=num%10;
 arm+=m*m*m;
 num=num/10;
